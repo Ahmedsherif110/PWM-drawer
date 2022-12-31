@@ -1,0 +1,20 @@
+/*
+ * Timer0_Cfg.h
+ *
+ * Created: 12/31/2022 8:32:32 PM
+ *  Author: as588
+ */ 
+
+#ifndef TIMER0_CFG_H_
+#define TIMER0_CFG_H_
+
+/*
+ * TIMER0_MODE_NONE
+ * TIMER0_MODE_INTERVAL
+ * TIMER0_MODE_CTC
+ * TIMER0_MODE_FAST_PWM
+ * TIMER0_MODE_PWM_PHASE_CORRECT
+ */
+#define TIMER_OPERATION_MODE TIMER0_MODE_FAST_PWM
+
+#endif
